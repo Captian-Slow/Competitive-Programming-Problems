@@ -13,4 +13,11 @@ _This repository is still a work in progress._
 * Compile the code by: `javac -d path-to-generate-class-file file-name.java`
 * Run the java code by: `java -cp path-to-class-files file-name`
 
+### C++ :
+* Make sure that you have the right compiler for your OS. The examples shown here follow the gcc (5.4.0) compiler, but the same _may_ work for other compilers.
+* Compile the code by: `gcc -o output-file-name input-file-name.cpp`
+* On Unix based systems, to run the file: `./output-file-name`
+* On Windows systems: `output-file-name.exe`
+
+
 
