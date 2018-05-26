@@ -15,11 +15,13 @@ import java.util.StringTokenizer;
 
 public class Signal_Range {
 	
+	boolean myvar = false;
+	
 	public static void main (String[] args) {		
 		
 		int t, currTowerSum;
 		long n;
-		long []h;
+		long []h;	
 		FastReader sc = new FastReader();
 		t = sc.nextInt();	
 		
@@ -50,7 +52,8 @@ public class Signal_Range {
 		}		
 	}
 	
-	static class Stack{
+	class Stack{
+		
 	    private int top=-1;
 	    private int arr[]=new int[100005];
 
