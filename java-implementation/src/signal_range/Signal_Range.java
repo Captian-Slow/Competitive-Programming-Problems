@@ -35,7 +35,7 @@ public class Signal_Range {
 			}	
 			
 			// Printing 1 for the first tower.
-			System.out.print(1 + " ");
+			System.out.print(1 + " ");			
 			
 			for (int i = 1; i < n; i++) {				
 				currTowerSum = 1;
