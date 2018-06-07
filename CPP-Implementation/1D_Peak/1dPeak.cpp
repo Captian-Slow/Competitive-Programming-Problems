@@ -1,5 +1,4 @@
 #include<iostream>
-
 using namespace std;
 
 int peak(int arr[], int n)
