@@ -28,10 +28,13 @@ int main(){
 bool check_for_abs_diff_1(int num){
 
     int digit1, digit2;
-        cout<<"\n "<<num<<":  \n";
-    while(num > 0){
-        if(num % 10 == 0)        //Checking for single digit values
+    //cout<<"\n "<<num<<":  \n";
+
+    while(num > 0) {
+
+        if(num / 10 == 0)        //Checking for single digit values
             return true;
+
         digit1 = num % 10;
         num /= 10;
         digit2 = num%10;
