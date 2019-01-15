@@ -80,4 +80,4 @@ local.properties
 .worksheet
 
 # CPP output files
-.out
+*.out
